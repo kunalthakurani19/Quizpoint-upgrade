@@ -29,7 +29,7 @@ MySQL Server
 
 
 Installing
-Clone the repository:
+Clone the repository: 
 git clone https://github.com/kunalthakurani19/QuizPoint.git
 
 
