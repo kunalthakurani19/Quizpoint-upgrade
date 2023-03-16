@@ -1,0 +1,190 @@
+<!-- <div class="container">
+  <div class="row" style="margin-top: 20px">
+    <div class="col-md-6 offset-md-3 borders " >
+      <mat-card >
+      <div class="container text-center">
+        <img src="../../../assets/logo2.png" alt="" width="100px" />
+      </div>
+      <h1 class="text-center">Register Here !!</h1>
+      <form (ngSubmit)="formSubmit()">
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Username</mat-label>
+          <input
+          required
+            [(ngModel)]="user.username"
+            name="username"
+            matInput
+            placeholder="Enter here"
+          />
+        </mat-form-field>
+
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Password</mat-label>
+          <input
+          required
+            [(ngModel)]="user.password"
+            name="password"
+            type="password"
+            matInput
+            placeholder="Enter here"
+          />
+        </mat-form-field>
+
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>First Name</mat-label>
+          <input
+          required
+            [(ngModel)]="user.firstname"
+            name="firstname"
+            matInput
+            placeholder="Enter here"
+          />
+        </mat-form-field>
+
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Last Name</mat-label>
+          <input required
+            [(ngModel)]="user.lastname"
+            name="lastname"
+            matInput
+            placeholder="Enter here"
+          />
+        </mat-form-field>
+
+     
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Email</mat-label>
+          <input required
+            [(ngModel)]="user.email"
+            name="email"
+            type="email"
+            matInput
+            placeholder="Enter here"
+          />
+        </mat-form-field>
+
+      
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Phone number</mat-label>
+          <input required
+            [(ngModel)]="user.phone"
+            name="phone"
+            type="number"
+            matInput
+            placeholder="Enter here"
+          />
+        </mat-form-field>
+        <div class="container text-center">
+          <button type="submit" mat-raised-button color="primary">
+            Register
+          </button>
+          <button
+            type="reset"
+            class="margin-left"
+            mat-raised-button
+            color="accent"
+          >
+            Clear
+          </button>
+        </div>
+      </form>
+    </mat-card>
+    </div>
+  </div>
+</div> -->
+<section class="parentSection">
+  <mat-card class="container">
+    <div class="container parentDiv">
+      <div class="row d-flex align-items-center justify-content-center h-100">
+        
+
+        <div class="col-md-7 col-lg-5 col-xl-5">
+          <div class="container">
+            <mat-card style="background-color:rgb(251, 251, 251)">
+              <div class="container text-center mt10">
+                <img src="../../../assets/logo.png" alt="" width="100px" />
+              </div>
+              <h1 class="text-center">Register Here !!</h1>
+              <!-- {{ loginData | json }}  -->
+              <form class="form" (ngSubmit)="formSubmit()">
+                <!-- Email input -->
+                <div class="form-outline mb-3">
+                  <mat-form-field class="full-width" appearance="outline">
+                    <mat-label>Username</mat-label>
+        
+                    <input required 
+                    [(ngModel)]="user.username"
+                    name="username" matInput placeholder="Enter here" />
+                  </mat-form-field>
+                </div>
+
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                  <mat-form-field class="full-width" appearance="outline">
+                    <mat-label>Password</mat-label>
+                    <input
+                      required
+                      [(ngModel)]="user.password"
+                      name="password"
+                      type="password"
+                      matInput
+                      placeholder="Enter here"
+                    />
+                  </mat-form-field>
+                </div>
+
+                <div class="form-outline mb-3">
+                  <mat-form-field class="full-width" appearance="outline">
+                    <mat-label>firstname</mat-label>
+        
+                    <input required 
+                    [(ngModel)]="user.firstname"
+                    name="firstname" matInput placeholder="Enter here" />
+                  </mat-form-field>
+                </div>
+
+                <div class="form-outline mb-3">
+                  <mat-form-field class="full-width" appearance="outline">
+                    <mat-label>lastname</mat-label>
+        
+                    <input required 
+                    [(ngModel)]="user.lastname"
+                    name="lastname" matInput placeholder="Enter here" />
+                  </mat-form-field>
+                </div>
+
+                <div class="form-outline mb-3">
+                  <mat-form-field class="full-width" appearance="outline">
+                    <mat-label>email</mat-label>
+        
+                    <input required 
+                    [(ngModel)]="user.email"
+                    name="email" type="email" matInput placeholder="Enter here" />
+                  </mat-form-field>
+                </div>
+
+                <div class="form-outline mb-3">
+                  <mat-form-field class="full-width" appearance="outline">
+                    <mat-label>phone</mat-label>
+        
+                    <input required 
+                    [(ngModel)]="user.phone"
+                    name="phone" type="number" matInput placeholder="Enter here" />
+                  </mat-form-field>
+                </div>
+
+                
+
+
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary">Register</button>
+
+               
+              </form>
+            </mat-card>
+          </div>
+        </div>
+      </div>
+    </div>
+  </mat-card>
+</section>

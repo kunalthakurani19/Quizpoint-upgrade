@@ -1,0 +1,8 @@
+.example-header-image {
+    background-image: url('../../../../assets/logo.png');
+    background-size: cover;
+  }
+  .mb10{
+    margin-bottom: 3px !important;
+  }
+  

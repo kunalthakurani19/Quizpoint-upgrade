@@ -1,0 +1,48 @@
+.category-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+
+
+.delete-button {
+    margin-left: 10px;
+}
+
+.delete-button-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+.mat-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.category-info {
+    flex: 1;
+}
+
+.category-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.category-description {
+    font-size: 14px;
+}
+
+.delete-container {
+    margin-left: auto;
+}
+
+.add-category-button {
+    margin-top: 20px;
+    text-align: right;
+}
