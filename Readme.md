@@ -69,9 +69,6 @@ Spring Boot - Java web framework
 Angular - TypeScript-based web application framework
 MySQL - Relational database management system
 
-Authors
+Author
 Kunal Thakurani - GitHub Profile
-
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
 
