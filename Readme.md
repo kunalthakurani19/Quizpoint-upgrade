@@ -30,7 +30,7 @@ MySQL Server
 
 Installing
 Clone the repository: 
-git clone https://github.com/kunalthakurani19/QuizPoint.git
+git clone https://github.com/kunalthakurani19/QuizPoint-upgrade.git
 
 
 Navigate to the project directory:
